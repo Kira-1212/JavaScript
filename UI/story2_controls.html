@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+            <li><a href="story1_controls.html">Story 1</a></li>
+            <li><a href="story2_controls.html">Story 2</a></li>
+            <li><a href="story3_controls.html">Story 3</a></li>
+
+          </ul>
+    </div>
+    <br>
+    <section class="slider">
+      <!-- <div class="reviews">
+        <h2><span>/</span>reviews</h2>
+      </div> -->
+      <div class="slide-container">    
+      </div>
+      <!-- buttons -->
+      <!-- prev btn -->
+      <button class="btn prev-btn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <!-- next button -->
+      <button class="btn next-btn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <div class="question" style="visibility: hidden; margin-top: -420px;">
+        <h4> The manager feels that foreign nationals do not 
+            deserve equal pay hikes and thinks that they maintain 
+            proper conversations in English.</h4>
+            <br>
+            <h4> Do you agree with the manager</h4>
+            <br>
+            <h4>Is she right in her opinions about foreign nationals?</h4>
+            <br>
+        <button class="btn left-btn" onclick="window.location.href='story3_controls.html'"> Yes, She is  right</button>
+        <button class="btn right-btn" onclick="window.location.href='story3_controls.html'"> No, She is wrong</button>
+      </div>
+      
+    </section>
+    <script type="module" src="story2_controls.js"></script>
+  </body>
+</html>
